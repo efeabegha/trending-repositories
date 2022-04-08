@@ -9,3 +9,73 @@
   color: white;
 }
 
+.h1 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.box {
+  border-color: #a1c6eb;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+}
+
+.box-header {
+  padding: 16px;
+  margin: -1px -1px 0;
+  background-color: #f6f8fa;
+  border-color: #d0d7de;
+  border-style: solid;
+  border-width: 1px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  justify-content: space-between;
+  display: flex;
+  color: blue;
+  font-weight: 100;
+}
+
+.tab button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  border-radius: 5px;
+  border: lightblue;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.container {
+  max-width: 1012px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 40px;
+}
+
+@media (min-width: 544px) {
+  .container {
+    padding-right: 40px;
+    padding-left: 40px;
+    /* background-color: blue; */
+  }
+}
+
+/* Styling for star */
+.star {
+  font-size: 20px;
+}
+
+.on {
+  color: #000;
+}
+
+.off {
+  color: #ccc;
+}
