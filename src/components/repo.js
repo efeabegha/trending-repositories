@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import Star from './star';
+import './repo.css';
 
 const Repo = (props) => {
   const [sCount, setSCount] = useState(0);
@@ -10,8 +11,8 @@ const Repo = (props) => {
     } 
   }, [])
   
-  return <div className="Repo">
-    <div className="repoOwner" data-testid="repo">
+  return <div className="repo">
+    <div className="repo-owner" data-testid="repo">
       <h1 className="repo-h1">{props.name}</h1>
       <a href={props.url}>{props.url}</a>
       <p className="paragraph">{props.description}</p>
