@@ -66,16 +66,3 @@
     /* background-color: blue; */
   }
 }
-
-/* Styling for star */
-.star {
-  font-size: 20px;
-}
-
-.on {
-  color: #000;
-}
-
-.off {
-  color: #ccc;
-}
