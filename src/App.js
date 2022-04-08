@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import Repo from './components/repo';
 import './App.css';
 
 export async function fetchRepos() {
