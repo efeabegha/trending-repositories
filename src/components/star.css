@@ -1,0 +1,11 @@
+.star {
+  font-size: 20px;
+}
+
+.on {
+  color: #000;
+}
+
+.off {
+  color: #ccc;
+}
