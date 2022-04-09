@@ -10,6 +10,7 @@
 
 .repo-owner {
   font-weight: 600;
+  word-break: break-word;
 }
 
 .repo-h1 {

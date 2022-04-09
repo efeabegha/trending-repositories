@@ -41,13 +41,11 @@ function App() {
       setTrendingRepoData(repoData || []);
       setActiveRepo(repoData || []);
     };
-    console.log('>> Before fetch!');
     fetchData();
   }, []);
 
   useEffect(() => {
     if (repo === "repositories") {
-      console.log('>> Inside Repo: ');
       setActiveRepo(trendingRepoData);
     }
     if (repo === "starredRepositories") {
@@ -59,7 +57,6 @@ function App() {
   }, [repo, trendingRepoData])
 
   const repos = activeRepo?.map((repoData) => {
-    console.log('>> Inside Repos Active: ', repoData);
     return(
       <Repo
         data-testid="repotest"

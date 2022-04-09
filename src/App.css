@@ -60,7 +60,17 @@
 
 @media (min-width: 544px) {
   .container {
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
+
+@media only screen and (min-width: 600px) {
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
