@@ -1,5 +1,5 @@
 import { render, screen, cleanup, fireEvent } from '@testing-library/react';
-import Star from './Star';
+import Star from './star';
 
 afterEach(() => {
   cleanup();
